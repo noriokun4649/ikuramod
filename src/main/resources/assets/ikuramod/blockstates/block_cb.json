@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ikuramod:cuttingbooard" },
+    "facing=south": { "model": "ikuramod:cuttingbooard", "y": 180 },
+    "facing=west":  { "model": "ikuramod:cuttingbooard", "y": 270 },
+    "facing=east":  { "model": "ikuramod:cuttingbooard", "y": 90 }
+  }
+}

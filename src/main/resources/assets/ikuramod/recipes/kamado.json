@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "group": "ikuramod:dirt_to_diamond",
+  "pattern": [
+    " # ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dirt",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

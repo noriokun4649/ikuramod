@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:FreshSalmonFillet"
+    },
+    "title": {
+      "text":"生鮭の切身"
+    },
+    "description": {
+      "text":"なんか美味しそう"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/cutting_booard",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:FreshSalmonFillet"
+          }
+        ]
+      }
+    }
+  }
+}

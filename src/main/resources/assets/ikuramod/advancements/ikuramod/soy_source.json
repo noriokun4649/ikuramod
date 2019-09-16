@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:SoySauce"
+    },
+    "title": {
+      "text":"醤油"
+    },
+    "description": {
+      "text":"刺し身の必需品"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/soy",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:SoySauce"
+          }
+        ]
+      }
+    }
+  }
+}

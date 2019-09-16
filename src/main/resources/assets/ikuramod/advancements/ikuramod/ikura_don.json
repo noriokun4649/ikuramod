@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:IkuraRiceDon"
+    },
+    "title": {
+      "text":"イクラ丼"
+    },
+    "description": {
+      "text":"イクラ丼いいぇぇい"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/ikura_gunkan",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:IkuraRiceDon"
+          }
+        ]
+      }
+    }
+  }
+}

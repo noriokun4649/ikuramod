@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "ikuramod:blocks/soy_stage_3"
+  }
+}

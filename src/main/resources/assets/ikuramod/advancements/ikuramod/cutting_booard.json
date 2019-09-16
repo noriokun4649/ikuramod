@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:block_cb"
+    },
+    "title": {
+      "text":"まな板"
+    },
+    "description": {
+      "text":"魚を切ってみよう"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/root",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:block_cb"
+          }
+        ]
+      }
+    }
+  }
+}

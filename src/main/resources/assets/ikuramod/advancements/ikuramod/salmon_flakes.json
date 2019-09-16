@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:SalmonFlakes"
+    },
+    "title": {
+      "text":"鮭フレーク"
+    },
+    "description": {
+      "text":"みんな大好き鮭フレーク。米と一緒に食べたいなぁ"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/baked_salmon_fillet",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:SalmonFlakes"
+          }
+        ]
+      }
+    }
+  }
+}

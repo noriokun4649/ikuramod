@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ikuramod:block_konro" },
+    "facing=south": { "model": "ikuramod:block_konro", "y": 180 },
+    "facing=west":  { "model": "ikuramod:block_konro", "y": 270 },
+    "facing=east":  { "model": "ikuramod:block_konro", "y": 90 }
+  }
+}

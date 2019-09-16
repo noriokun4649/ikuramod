@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "ikuramod:block_dai" },
+    "facing=south": { "model": "ikuramod:block_dai", "y": 180 },
+    "facing=west":  { "model": "ikuramod:block_dai", "y": 270 },
+    "facing=east":  { "model": "ikuramod:block_dai", "y": 90 }
+  }
+}

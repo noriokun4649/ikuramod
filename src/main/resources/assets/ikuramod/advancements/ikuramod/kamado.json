@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:block_kamado"
+    },
+    "title": {
+      "text":"かまどだぁ！"
+    },
+    "description": {
+      "text":"米を炊こう"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/freshrice",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:block_kamado"
+          }
+        ]
+      }
+    }
+  }
+}

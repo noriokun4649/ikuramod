@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ikuramod:IkuraGunkan"
+    },
+    "title": {
+      "text":"イクラの軍艦"
+    },
+    "description": {
+      "text":"おいしそう"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ikuramod:ikuramod/salmon_flake_don",
+  "criteria": {
+    "sumple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ikuramod:IkuraGunkan"
+          }
+        ]
+      }
+    }
+  }
+}
